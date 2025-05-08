@@ -6,35 +6,42 @@ public class ejercicio13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num;
-
+        int encontrados = 0;
+        int numActual = 2;
+        
         do{
             System.out.print("Ingrese un numero entero: ");
             num = sc.nextInt();
-
+            
             if (num <= 0) {
                 System.out.println("Numero invalido. Debe ser mayor a 0. Vuelva a intentarlo");
             }
         } while(num <= 0);
+        
+        int[] primos = new int[num];
 
-        int encontrados = 0;
-        int candidato = 2;
-
-        System.out.println("Los primeros " + num + " numeros primos son: ");
         while (encontrados < num) {
             boolean primo = true;
 
-            for (int i = 2; i <= candidato / 2; i++) {
-                if (candidato % i == 0) {
+            for (int i = 2; i <= numActual / 2; i++) {
+                if (numActual % i == 0) {
                     primo = false;
                     break;
                 }
             }
+
             if (primo) {
-                System.out.print(candidato + " ");
+                primos[encontrados] = numActual;
                 encontrados++;
             }
-            candidato++;
+            numActual++;
         }
+
+        System.out.println("Los primeros " + num + " numeros primos son:");
+        for (int i = 0; i < primos.length; i++) {
+            System.out.print(primos[i] + " ");
+        }
+
         sc.close();
     }
 }
