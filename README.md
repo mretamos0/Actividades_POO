@@ -17,7 +17,9 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
-El orden de las carpetas es:
-1- introduccion
-2- arreglos
-3- clases
+Carpetas:
+unidad1: Introduccion
+unidad2: Arreglos
+unidad3: Clases
+TP_1: Ejercicios de la unidad 2 y 3
+
