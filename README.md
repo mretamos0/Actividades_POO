@@ -18,8 +18,9 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
 Carpetas:
-unidad1: Introduccion
-unidad2: Arreglos
-unidad3: Clases
+Unidad_1: Introduccion
+Unidad_2: Arreglos
+Unidad_3: Clases
+Unidad_4: Herencia
 TP_1: Ejercicios de la unidad 2 y 3
 
