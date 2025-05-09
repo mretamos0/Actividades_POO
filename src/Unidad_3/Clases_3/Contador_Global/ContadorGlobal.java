@@ -11,7 +11,7 @@ package Unidad_3.Clases_3.Contador_Global;
 public class ContadorGlobal {
     private static int contador = 0;
 
-    public void incrementar() {
+    public static void incrementar() {
         contador++;
     }
 
