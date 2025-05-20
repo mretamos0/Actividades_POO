@@ -3,7 +3,7 @@
     b. Métodos de devolución y modificación.
     c. Método toString.
     d. Métodos sumarHoras, sumarMinutos y sumarSegundos: Que reciben la cantidad de horas, minutos y segundos, respectivamente. Deben devolver el nuevo Horario obtenido */
-package Unidad_3.clases_4.Horario;
+package Unidad_3.Clases_4.Horario;
 
 public class Horario {
     private int hora;

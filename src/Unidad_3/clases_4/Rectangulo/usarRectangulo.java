@@ -1,4 +1,4 @@
-package Unidad_3.clases_4.Rectangulo;
+package Unidad_3.Clases_4.Rectangulo;
 
 public class usarRectangulo {
     public static void main(String[] args) {

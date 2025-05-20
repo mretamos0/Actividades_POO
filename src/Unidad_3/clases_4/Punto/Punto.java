@@ -4,7 +4,7 @@
     c. Método toString.
     d. Mover horizontalmente: Que recibe undesplazamiento y modifica la x.
     e. Mover verticalmente: Que recibe un desplazamientoy modifica la y. */
-package Unidad_3.clases_4.Punto;
+package Unidad_3.Clases_4.Punto;
 
 public class Punto {
     private int x;

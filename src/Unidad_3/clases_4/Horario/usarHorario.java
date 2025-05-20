@@ -1,4 +1,4 @@
-package Unidad_3.clases_4.Horario;
+package Unidad_3.Clases_4.Horario;
 
 public class usarHorario {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Unidad_3.clases_4.Empleado;
+package Unidad_3.Clases_4.Empleado;
 import java.util.Scanner;
 
 public class usarEmpleado {

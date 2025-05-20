@@ -4,7 +4,7 @@
     c. Métodos sets y gets. Los métodos de modificación deben verificar que longitud y ancho sean números mayores de 0 y menores de 20.
     d. Métodos para calcular el perímetro y el área del rectángulo.
     e. Un programa para probar la clase Rectángulo, creando al menos dos instancias de dicha clase. */
-package Unidad_3.clases_4.Rectangulo;
+package Unidad_3.Clases_4.Rectangulo;
 
 public class Rectangulo {
     private int longitud;

@@ -1,4 +1,4 @@
-package Unidad_3.clases_4.Punto;
+package Unidad_3.Clases_4.Punto;
 
 public class usarPunto {
     public static void main(String[] args) {

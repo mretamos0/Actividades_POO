@@ -3,7 +3,7 @@
     b. Crear un método toString() en el que se muestre concatenada toda la información del objeto.
     c. Completar los métodos set y get correspondientes a todos losatributos.
     d. Cree una clase ejecutable que instancie cinco personas solicitando los datos por teclado, las coloque en un arreglo y luego, las muestre por pantalla. */
-package Unidad_3.clases_4.Persona;
+package Unidad_3.Clases_4.Persona;
 
 public class Persona {
     private int documento;

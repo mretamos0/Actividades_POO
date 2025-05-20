@@ -1,4 +1,4 @@
-package Unidad_3.clases_4.Producto;
+package Unidad_3.Clases_4.Producto;
 import java.util.Scanner;
 
 public class usarProducto {

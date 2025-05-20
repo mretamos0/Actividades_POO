@@ -6,7 +6,7 @@
         d. Método toString con la concatenación de los valores de los atributos.
         e. Crear la clase Productos que reciba por parámetro la cantidad de instancias de la clase Producto que se deben crear. 
         Generar un arreglo del tamaño recibido y colocar cada instancia en el arreglo. Los valores de los atributos deben ser solicitados al usuario por teclado. */
-package Unidad_3.clases_4.Producto;
+package Unidad_3.Clases_4.Producto;
 
 public class Producto {
     private String codigo;
