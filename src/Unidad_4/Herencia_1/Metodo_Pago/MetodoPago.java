@@ -16,11 +16,3 @@ public abstract class MetodoPago {
     
     public abstract double calcularMontoFinal();
 }
-
-
-
-
-
-
-
-
