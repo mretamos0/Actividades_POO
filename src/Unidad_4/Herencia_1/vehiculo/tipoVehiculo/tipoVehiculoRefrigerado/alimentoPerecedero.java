@@ -1,10 +1,10 @@
 package Unidad_4.Herencia_1.Vehiculo.tipoVehiculo.tipoVehiculoRefrigerado;
-import Unidad_4.Herencia_1.Vehiculo.tipoVehiculo.vehiculoRefrigerado;
+import Unidad_4.Herencia_1.Vehiculo.tipoVehiculo.VehiculoRefrigerado;
 
-public class alimentoPerecedero extends vehiculoRefrigerado{
+public class AlimentoPerecedero extends VehiculoRefrigerado{
         private String tipoAlimento;
 
-        public alimentoPerecedero(String patente, int anoFabricacion, double capacidadCarga, double temperatura, String sistema, String tipoAlimento) {
+        public AlimentoPerecedero(String patente, int anoFabricacion, double capacidadCarga, double temperatura, String sistema, String tipoAlimento) {
             super(patente, anoFabricacion, capacidadCarga, temperatura, sistema);
             this.tipoAlimento = tipoAlimento;
         }

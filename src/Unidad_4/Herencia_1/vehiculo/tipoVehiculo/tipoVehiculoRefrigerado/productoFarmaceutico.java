@@ -1,10 +1,10 @@
 package Unidad_4.Herencia_1.Vehiculo.tipoVehiculo.tipoVehiculoRefrigerado;
-import Unidad_4.Herencia_1.Vehiculo.tipoVehiculo.vehiculoRefrigerado;
+import Unidad_4.Herencia_1.Vehiculo.tipoVehiculo.VehiculoRefrigerado;
 
-public class productoFarmaceutico extends vehiculoRefrigerado{
+public class ProductoFarmaceutico extends VehiculoRefrigerado{
         private boolean autorizacionSanitaria;
 
-        public productoFarmaceutico(String patente, int anoFabricacion, double capacidadCarga, double temperatura, String sistema, boolean autorizado) {
+        public ProductoFarmaceutico(String patente, int anoFabricacion, double capacidadCarga, double temperatura, String sistema, boolean autorizado) {
             super(patente, anoFabricacion, capacidadCarga, temperatura, sistema);
             this.autorizacionSanitaria = autorizado;
         }

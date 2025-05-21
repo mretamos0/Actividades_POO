@@ -3,7 +3,7 @@ import Unidad_4.Herencia_1.Metodo_Pago.tipoPago.pagoConDebito;
 import Unidad_4.Herencia_1.Metodo_Pago.tipoPago.pagoConTarjetaCredito;
 import Unidad_4.Herencia_1.Metodo_Pago.tipoPago.pagoConTransferencia;
 
-public class usarMetodoPago {
+public class UsarMetodoPago {
     public static void main(String[] args) {
         MetodoPago m1 = new pagoConTarjetaCredito(10);
         MetodoPago m2 = new pagoConDebito(100);
