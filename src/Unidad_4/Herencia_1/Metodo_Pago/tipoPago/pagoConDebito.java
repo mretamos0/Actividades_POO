@@ -5,7 +5,8 @@ public class pagoConDebito extends MetodoPago {
     public pagoConDebito(double montoBase) {
         super(montoBase);
     }
-
+    
+    @Override
     public double calcularMontoFinal() {
         return montoBase;
     }

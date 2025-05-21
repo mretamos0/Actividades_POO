@@ -6,6 +6,7 @@ public class pagoConTransferencia extends MetodoPago {
         super(montoBase);
     }
 
+    @Override
     public double calcularMontoFinal() {
         return montoBase * 0.95;
     }

@@ -6,6 +6,7 @@ public class pagoConTarjetaCredito extends MetodoPago {
         super(montoBase);
     }
 
+    @Override
     public double calcularMontoFinal() {
         return montoBase * 1.10;
     }
