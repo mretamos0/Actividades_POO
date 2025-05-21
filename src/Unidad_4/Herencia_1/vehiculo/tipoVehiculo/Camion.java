@@ -1,5 +1,5 @@
-package Unidad_4.Herencia_1.vehiculo.tipoVehiculo;
-import Unidad_4.Herencia_1.vehiculo.Vehiculo;
+package Unidad_4.Herencia_1.Vehiculo.tipoVehiculo;
+import Unidad_4.Herencia_1.Vehiculo.Vehiculo;
 
 public class Camion extends Vehiculo{
     private int ejes;

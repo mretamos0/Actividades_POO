@@ -9,7 +9,7 @@ de productos tecnológicos sensibles (como chips o baterías) , que deben inclui
 Se solicita diseñar e implementar la jerarquía de clases respetando los principios de la programación orientada a objetos. 
 Implementar un método mostrarDatos() en cada clase que imprima todos los atributos. En una clase principal EmpresaTransporte, crear al menos un objeto de cada tipo de vehículo.
 Mostrar la información completa de cada vehículo usando el método mostrarDatos(). */
-package Unidad_4.Herencia_1.vehiculo;
+package Unidad_4.Herencia_1.Vehiculo;
 
 public abstract class Vehiculo {
     protected String patente;
