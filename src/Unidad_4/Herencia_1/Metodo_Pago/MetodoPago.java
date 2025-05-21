@@ -10,11 +10,17 @@ package Unidad_4.Herencia_1.Metodo_Pago;
 public abstract class MetodoPago {
     protected double montoBase;
 
-    public MetodoPago() {
-        this.montoBase = 0.0;
+    public MetodoPago(double montoBase) {
+        this.montoBase = montoBase;
     }
-
-    public abstract double calcularMontoFinal() {
-        
-    }
+    
+    public abstract double calcularMontoFinal();
 }
+
+
+
+
+
+
+
+
