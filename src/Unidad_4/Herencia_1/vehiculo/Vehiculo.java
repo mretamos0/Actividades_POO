@@ -21,6 +21,6 @@ public abstract class Vehiculo {
         this.anoFabricacion = anoFabricacion;
         this.capacidadCarga = capacidadCarga;
     }
-
+    
     public abstract void mostrarDatos();
 }
