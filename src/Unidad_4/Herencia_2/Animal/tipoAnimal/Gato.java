@@ -6,6 +6,7 @@ public class Gato extends Animal{
         super(nombre, edad);
     }
 
+    @Override
     public String hacerSonido() {
         return "Miau";
     }
