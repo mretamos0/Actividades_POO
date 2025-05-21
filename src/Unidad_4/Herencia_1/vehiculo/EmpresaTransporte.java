@@ -1,9 +1,9 @@
-package Unidad_4.Herencia_1.Empresa_Transporte;
-import Unidad_4.Herencia_1.Empresa_Transporte.tipoVehiculo.Camion;
-import Unidad_4.Herencia_1.Empresa_Transporte.tipoVehiculo.Camioneta;
-import Unidad_4.Herencia_1.Empresa_Transporte.tipoVehiculo.tipoVehiculoRefrigerado.alimentoPerecedero;
-import Unidad_4.Herencia_1.Empresa_Transporte.tipoVehiculo.tipoVehiculoRefrigerado.productoFarmaceutico;
-import Unidad_4.Herencia_1.Empresa_Transporte.tipoVehiculo.tipoVehiculoRefrigerado.productoTecnologico;
+package Unidad_4.Herencia_1.vehiculo;
+import Unidad_4.Herencia_1.vehiculo.tipoVehiculo.Camion;
+import Unidad_4.Herencia_1.vehiculo.tipoVehiculo.Camioneta;
+import Unidad_4.Herencia_1.vehiculo.tipoVehiculo.tipoVehiculoRefrigerado.alimentoPerecedero;
+import Unidad_4.Herencia_1.vehiculo.tipoVehiculo.tipoVehiculoRefrigerado.productoFarmaceutico;
+import Unidad_4.Herencia_1.vehiculo.tipoVehiculo.tipoVehiculoRefrigerado.productoTecnologico;
 
 public class EmpresaTransporte {
     public static void main(String[] args) {

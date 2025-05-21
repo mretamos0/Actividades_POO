@@ -1,5 +1,5 @@
-package Unidad_4.Herencia_1.Empresa_Transporte.tipoVehiculo;
-import Unidad_4.Herencia_1.Empresa_Transporte.Vehiculo;
+package Unidad_4.Herencia_1.vehiculo.tipoVehiculo;
+import Unidad_4.Herencia_1.vehiculo.Vehiculo;
 
 public abstract class vehiculoRefrigerado  extends Vehiculo{
         protected double temperaturaMinima; 

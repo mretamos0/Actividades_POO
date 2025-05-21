@@ -1,6 +1,6 @@
-package Unidad_4.Herencia_1.Empresa_Transporte.tipoVehiculo.tipoVehiculoRefrigerado;
+package Unidad_4.Herencia_1.vehiculo.tipoVehiculo.tipoVehiculoRefrigerado;
 
-import Unidad_4.Herencia_1.Empresa_Transporte.tipoVehiculo.vehiculoRefrigerado;
+import Unidad_4.Herencia_1.vehiculo.tipoVehiculo.vehiculoRefrigerado;
 
 public class alimentoPerecedero extends vehiculoRefrigerado{
         private String tipoAlimento;
