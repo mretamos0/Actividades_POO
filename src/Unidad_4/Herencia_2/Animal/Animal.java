@@ -6,10 +6,10 @@ package Unidad_4.Herencia_2.Animal;
 public class Animal {
     private String nombre;
     private int edad;
-    
+
     public Animal() {
-        nombre = "";
-        edad = 0;
+        this.nombre = "Generico";
+        this.edad = 0;
     }
 
     public Animal(String nombre, int edad) {
@@ -19,5 +19,9 @@ public class Animal {
 
     public String hacerSonido() {
         return "El animal hace un ruido";
+    }
+
+    public String mostrarDatos() {
+        return "Nombre: " + nombre + ", edad: " + edad + ", Sonido: " + hacerSonido();
     }
 }
