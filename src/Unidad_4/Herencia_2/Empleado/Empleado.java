@@ -19,6 +19,6 @@ public class Empleado {
     }
 
     public String mostrarRecibo() {
-        return "Nombre: " + nombre + ", sueldo calculado: " + calcularSueldo();
+        return "Nombre: " + nombre + ", sueldo calculado: $" + calcularSueldo();
     }
 }

@@ -8,8 +8,7 @@ public class UsarEmpleado {
         Empleado e1 = new EmpleadoPorHora("Andres", 8, 3000);
         Empleado e2 = new EmpleadoConComision("Carlos", 100, 5, 0.5);
         
-        System.out.println("Empleado por hora:\n" + e1.mostrarRecibo());
-        System.out.println("");
-        System.out.println("Empleado con comision:\n" + e2.mostrarRecibo());
+        System.out.println("Empleado por hora: (" + e1.mostrarRecibo() + ")");
+        System.out.println("Empleado con comision: (" + e2.mostrarRecibo() + ")");
     }
 }
