@@ -3,7 +3,7 @@ import Unidad_4.Herencia_2.Animal.tipoAnimal.Gato;
 import Unidad_4.Herencia_2.Animal.tipoAnimal.Pajaro;
 import Unidad_4.Herencia_2.Animal.tipoAnimal.Perro;
 
-public class usarAnimal {
+public class UsarAnimal {
     public static void main(String[] args) {
         Animal a1 = new Animal();
         Animal perro = new Perro("Firulais", 5);
