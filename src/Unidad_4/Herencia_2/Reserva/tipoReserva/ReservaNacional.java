@@ -2,8 +2,8 @@ package Unidad_4.Herencia_2.Reserva.tipoReserva;
 import Unidad_4.Herencia_2.Reserva.Reserva;
 
 public class ReservaNacional extends Reserva {
-    public ReservaNacional(double precioBase) { 
-        super("", "", precioBase);
+    public ReservaNacional(int codigoReserva, String destino,double precioBase) { 
+        super(codigoReserva, destino, precioBase);
     }
 
     @Override 

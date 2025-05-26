@@ -6,11 +6,11 @@ Cada subclase debe sobrescribir calcularPrecioFinal() y tener un método mostrar
 package Unidad_4.Herencia_2.Reserva;
 
 public class Reserva {
-    protected String codigoReserva;
+    protected int codigoReserva;
     protected String destino;
     protected double precioBase;
     
-    public Reserva(String codigoReserva, String destino, double precioBase) {
+    public Reserva(int codigoReserva, String destino, double precioBase) {
         this.codigoReserva = codigoReserva;
         this.destino = destino;
         this.precioBase = precioBase;
@@ -21,6 +21,6 @@ public class Reserva {
     }
 
     public String mostrarResumen() {
-        return "Codigo de reserva: " + codigoReserva + ", destino: " + destino + ", precio base: " + precioBase + "precio final: " + calcularPrecioFinal();
+        return "Codigo de reserva: " + codigoReserva + ", destino: " + destino + ", precio base: " + precioBase + "precio final: $" + calcularPrecioFinal();
     }
 }
