@@ -13,6 +13,6 @@ public abstract class MetodoPago {
     public MetodoPago(double montoBase) {
         this.montoBase = montoBase;
     }
-    
+
     public abstract double calcularMontoFinal();
 }
