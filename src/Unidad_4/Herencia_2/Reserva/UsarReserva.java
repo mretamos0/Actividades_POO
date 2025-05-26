@@ -9,7 +9,6 @@ public class UsarReserva {
         Reserva r2 = new ReservaInternacional(23456, "Canada", 1500000);
 
         System.out.println("Reserva nacional: (" + r1.mostrarResumen() + ")");
-        System.out.println(" ");
-        System.out.println("Reserva internacional:\n" + r2.mostrarResumen());
+        System.out.println("Reserva internacional: (" + r2.mostrarResumen() + ")");
     }
 }

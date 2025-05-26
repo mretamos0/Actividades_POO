@@ -21,6 +21,7 @@ public class Reserva {
     }
 
     public String mostrarResumen() {
-        return "Codigo de reserva: " + codigoReserva + ", destino: " + destino + ", precio base: " + precioBase + "precio final: $" + calcularPrecioFinal();
+        double precioFinal = Math.round(calcularPrecioFinal() * 100.0) / 100.0;
+        return "Codigo de reserva: " + codigoReserva + ", destino: " + destino + ", precio base: " + precioBase + ", precio final: $" + precioFinal;
     }
 }
