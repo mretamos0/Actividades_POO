@@ -6,5 +6,19 @@ Incluir en todas las clases un método mostrarRecibo() que muestre los datos y e
 package Unidad_4.Herencia_2.Empleado;
 
 public class Empleado {
+    protected String nombre;
+    protected double sueldoBase;
     
+    public Empleado(String nombre, double sueldoBase) {
+        this.nombre = nombre;
+        this.sueldoBase = sueldoBase;
+    }
+
+    public double calcularSueldo() {
+        return sueldoBase;
+    }
+
+    public String mostrarRecibo() {
+        return "Nombre: " + nombre + ", sueldo calculado: " + calcularSueldo();
+    }
 }
