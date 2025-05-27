@@ -2,7 +2,7 @@ package Unidad_4.Herencia_3.Instrumento_Musical;
 import java.util.Scanner;
 import Unidad_4.Herencia_3.Instrumento_Musical.tipoInstrumento.Guitarra;
 import Unidad_4.Herencia_3.Instrumento_Musical.tipoInstrumento.Piano;
-//Hice la clase de prueba agregandole un Scanner (no estaba en la consigna), para ingresar los datos por teclado y luego verificar que sean validos
+//En la clase de prueba, le agregue un Scanner (no esta en la consigna), para ingresar los datos por teclado y luego verificar que sean validos
 
 public class Orquesta {
     public static void main(String[] args) {
