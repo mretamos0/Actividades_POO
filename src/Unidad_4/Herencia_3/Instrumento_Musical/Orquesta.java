@@ -7,7 +7,7 @@ import Unidad_4.Herencia_3.Instrumento_Musical.tipoInstrumento.Piano;
 public class Orquesta {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String nombre;
+        String nombre, ins;
 
         System.out.print("Ingrese la cantidad de instrumentos: ");
         int n = sc.nextInt();
@@ -17,14 +17,18 @@ public class Orquesta {
         
         for (int i = 0; i < instrumentos.length; i++){
             while(true){
-                System.out.print("Ingrese el nombre del instrumento N°" + (i+1) + ": ");
-                nombre = sc.nextLine();
+                System.out.print("Ingrese el instrumento N°" + (i+1) + ": ");
+                ins = sc.nextLine();
 
-                if(nombre.equalsIgnoreCase("guitarra")){
-                    instrumentos[i] = new Guitarra("Guitarra");
+                if(ins.equalsIgnoreCase("guitarra")){
+                    System.out.print("Ingrese el nombre de la guitarra: ");
+                    nombre = sc.nextLine();
+                    instrumentos[i] = new Guitarra(nombre);
                     break;
-                } else if (nombre.equalsIgnoreCase("piano")) {
-                    instrumentos[i] = new Piano("piano");
+                } else if (ins.equalsIgnoreCase("piano")) {
+                    System.out.print("Ingrese el nombre del piano: ");
+                    nombre = sc.nextLine();
+                    instrumentos[i] = new Piano(nombre);
                     break;
                 } else {
                     System.out.println("El nombre del instrumento no es valido. Debe ser 'guitarra' o 'piano'. Vuelva a ingresar.");

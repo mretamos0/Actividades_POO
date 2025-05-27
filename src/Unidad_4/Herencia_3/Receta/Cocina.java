@@ -5,6 +5,6 @@ package Unidad_4.Herencia_3.Receta;
 public class Cocina {
     public static void main(String[] args) {
         Receta[] Recetas = new Recetas[2];
-
+        
     }
 }
