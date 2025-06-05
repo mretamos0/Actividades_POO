@@ -1,9 +1,9 @@
 /*Crear un programa que contenga un ArrayList de enteros. Cargar 10 números al azar utilizando Math.random(). 
 Desarrollar una función que calcule el promedio de los mismos y que dicho resultado sea luego mostrado en pantalla desde el programa principal. */
-package Unidad_5.Colecciones_2.Enteros;
+package Unidad_5.Colecciones_2.Promedio;
 import java.util.ArrayList;
 
-public class Enteros {
+public class Promedio {
     public static void main(String[] args) {
         ArrayList <Integer> listaEnteros = new ArrayList<>();
         int suma = 0;
