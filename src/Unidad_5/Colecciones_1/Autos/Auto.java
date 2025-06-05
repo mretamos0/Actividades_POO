@@ -2,7 +2,7 @@
 Escribir un programa que lea Autos y los cargue en un ArrayList, hasta que la marca sea vacía, y muestra los datos de autos ingresados (toString con todos los datos correspondientes), y promedio de precios de venta.
 Escribir un método que permita obtener si un auto determinado (para identificar, el dato que se tiene es el modelo) se encuentra en el ArrayList. Pasar como parámetro el ArrayList creado y el modelo buscado. */
 
-package Unidad_5.Colecciones_1;
+package Unidad_5.Colecciones_1.Autos;
 
 public class Auto {
     private String marca;

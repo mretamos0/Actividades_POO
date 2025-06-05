@@ -1,4 +1,4 @@
-package Unidad_5.Colecciones_1;
+package Unidad_5.Colecciones_1.Autos;
 import java.util.Scanner;
 import java.util.ArrayList;
 
