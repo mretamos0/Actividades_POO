@@ -16,36 +16,8 @@ public class Piloto {
         this.tiempoEmpleado = tiempoEmpleado;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getEscuderia() {
-        return escuderia;
-    }
-
-    public void setEscuderia(String escuderia) {
-        this.escuderia = escuderia;
-    }
-
     public int getPosicionFinal() {
         return posicionFinal;
-    }
-
-    public void setPosicionFinal(int posicionFinal) {
-        this.posicionFinal = posicionFinal;
-    }
-
-    public double getTiempoEmpleado() {
-        return tiempoEmpleado;
-    }
-
-    public void setTiempoEmpleado(double tiempoEmpleado) {
-        this.tiempoEmpleado = tiempoEmpleado;
     }
 
     @Override
