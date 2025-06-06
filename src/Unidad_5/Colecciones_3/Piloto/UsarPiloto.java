@@ -56,7 +56,7 @@ public class UsarPiloto {
 
     public static void ordenarPosicionCreciente(ArrayList<Piloto> listaPilotos) {
         if (listaPilotos.isEmpty()) {
-            System.out.println("No se puede ordenar la lista ya que no hay pilotos registrados. Registre pilotos");
+            System.out.println("No se puede ordenar la lista ya que no hay pilotos registrados.");
         }
         listaPilotos.sort(Comparator.comparingInt(Piloto::getPosicionFinal));
         // .sort() espera que le diga como ordenar los elementos, por defecto siempre compara de menor a mayor
