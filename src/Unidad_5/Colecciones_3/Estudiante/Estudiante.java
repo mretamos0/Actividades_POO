@@ -5,9 +5,9 @@ package Unidad_5.Colecciones_3.Estudiante;
 public class Estudiante {
     private String nombre;
     private String apellido;
-    private double notaFinal;
+    private int notaFinal;
     
-    public Estudiante(String nombre, String apellido, double notaFinal) {
+    public Estudiante(String nombre, String apellido, int notaFinal) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.notaFinal = notaFinal;
@@ -20,8 +20,13 @@ public class Estudiante {
     public String getApellido() {
         return apellido;
     }
-    
-    public double getNotaFinal() {
+
+    public int getNotaFinal() {
         return notaFinal;
+    }
+
+    @Override
+    public String toString() {
+        return "(nombre: " + nombre + ", apellido: " + apellido + ", notaFinal: " + notaFinal + ")";
     }
 }
