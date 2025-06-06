@@ -67,15 +67,25 @@ public class AtencionCliente {
 
     public static void verListaEspera(ArrayList<Cliente> listaClientes) {
         System.out.println("\n- Metodo lista de espera: ");
-        System.out.println("Clientes en lista de espera: ");
-        for(Cliente c : listaClientes) {
-            System.out.println("- " + c.listaEspera());
+
+        if (listaClientes.isEmpty()) {
+            System.out.println("No hay clientes en la lista");
+        } else {
+            System.out.println("Clientes en lista de espera: ");
+            for(Cliente c : listaClientes) {
+                System.out.println("- " + c.listaEspera());
+            }
         }
     }
 
     public static void cuantosClientesQuedan(ArrayList<Cliente> listaClientes) {
         System.out.println("\n- Metodo clientes que quedan");
-        int cantidad = listaClientes.size();
-        System.out.println("Quedan " + cantidad + " clientes");
+
+        if (listaClientes.isEmpty()) {
+            System.out.println("No hay clientes en la lista");
+        } else {
+            int cantidad = listaClientes.size();
+            System.out.println("Quedan " + cantidad + " clientes");
+        }
     }
 }
